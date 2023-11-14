@@ -1,3 +1,4 @@
+// @ts-check
 import { homedir } from "node:os";
 import { resolve } from "node:path";
 import sqlite3 from "sqlite3";
