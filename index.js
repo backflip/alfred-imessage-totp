@@ -34,6 +34,7 @@ console.log(
     items: codes.length
       ? codes.map((code) => ({
           title: code,
+          arg: code,
         }))
       : [{ title: `No results in last ${MINUTES} mins` }],
   })
